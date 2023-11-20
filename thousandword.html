@@ -1,0 +1,437 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>Thousand Words</title>
+<link rel="stylesheet" href="w3.css"/>
+<script src="./mysscripts.js"></script>
+<link rel="stylesheet" href="./w3.css" />
+<meta name="description" content="TiGF" />
+<meta property="og:title" content="TiGF" />
+<link rel="stylesheet" href="mystyle.css" />
+<meta property="og:type" content="website" />
+<script src="./appml-2.0.3-appml.js"></script>
+<link rel="stylesheet" href="./mystyle.css" />
+<meta property="og:site_name" content="TiGF" />
+<meta name="distribution"    content="global" />
+<meta name="language"        content="english" />
+<meta name="author"          content="Odiegho" />
+<meta name="publisher"       content="Odiegho" />
+<meta name="copyright"       content="2023 Odiegho" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<link rel="stylesheet" type="text/css" href="./mystyle.css" />	
+<meta property="og:url" content="https://tigf.w3spaces.com/" />
+<meta property="og:site_name" content="Together in God Family" />
+<link rel="icon" type="image/x-icon" href="./images/favicon.ico" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia&effect=fire|neon|outline|emboss|shadow-multiple" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+<script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+<script src="https://kit.fontawesome.com/75f1d04a39.js" crossorigin="anonymous"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
+<script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+<meta name="keywords" content="HTML, CSS, JavaScript" /> 
+<style type="text/css">
+body {
+  color: #000000;
+  text-align: justify;
+  font-family: Arial, Helvetica, sans-serif;
+} 
+
+.br {
+  border-radius: 10px;
+  border: 5px solid #F2CD5C;
+  background-color: #ffffff;
+}
+
+.br:hover {
+  border: 5px solid rgb(41, 40, 41,0.9);
+  background-color: #f3f3f3;
+}
+
+h3 {
+  color: rgb(255, 0, 0);
+}
+
+.row {
+  background: #F2CD5C;
+}
+
+.dailyverse {
+  background: #F2CD5C;
+}
+
+.b {
+  background-color: #F2CD5C;
+}
+
+.cl {
+   background-color: rgb(60, 60, 60);
+   color: #ffffff;
+}
+
+.cl2 {
+   color: rgb(255, 255, 0);
+}
+</style>
+<style>
+/*Random Quotestyle*/
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,500');
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  vertical-align: baseline;
+}
+
+#quote-box {
+  border-radius: 3px;
+  position: relative;
+  width: auto;
+  padding: 40px 50px;
+  display: table;
+}
+#quote-box .quote-text {
+  text-align: center;
+  width: auto;
+  height: auto;
+  clear: both;
+  font-weight: 500;
+  font-size: 1.75em;
+}
+#quote-box .quote-text i {
+  font-size: 1em;
+  margin-right: 0.4em;
+}
+#quote-box .quote-author {
+  width: auto;
+  height: auto;
+  clear: both;
+  padding-top: 20px;
+  font-size: 1em;
+  text-align: right;
+}
+#quote-box .buttons {
+  width: auto;
+  margin: auto;
+  display: block;
+}
+#quote-box .buttons .button {
+  height: 38px;
+  border: none;
+  border-radius: 3px;
+  color: #fff;
+  background-color: #333;
+  outline: none;
+  font-size: 0.85em;
+  padding: 8px 18px 6px 18px;
+  margin-top: 30px;
+  opacity: 1;
+  cursor: pointer;
+}
+#quote-box .buttons .button:hover {
+  opacity: 0.9;
+}
+#quote-box .buttons .button#tweet-quote,
+#quote-box .buttons .button#tumblr-quote {
+  float: center;
+  padding: 0px;
+  padding-top: 8px;
+  text-align: center;
+  font-size: 1.2em;
+  margin-right: 5px;
+  height: 30px;
+  width: 40px;
+}
+#quote-box .buttons .button#new-quote {
+  float: left;
+}
+</style>
+</head>
+<body>
+<body onload="clock()">
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KTCFC3S"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->  
+<header>
+<nav><nav class="navbar navbar-expand-sm fixed-top cl target" id="targetnav"> <div class="container-fluid">    <a href="https://tigf.w3spaces.com/index.html" class="navbar-brand w3-hover-text-white cl2 h1" href="javascript:void(0)">TiGF</a>    <img src="https://tigf.w3spaces.com/image/john316.gif" style="width:200px;">    <span data-bs-toggle="collapse" data-bs-target="#mynavbar">     <section>    <div class="container" onclick="myFunction(this)">  <div class="bar1"></div>  <div class="bar2"></div>  <div class="bar3"></div></div>           </section>                           </span>          <div class="collapse navbar-collapse" id="mynavbar">      <ul class="navbar-nav me-auto">       </ul>                                      <div class="w3-dropdown-hover nav-link">    <span class="w3-btn w3-hover-black cl2">Prayer<i></i>    </span>      <div class="w3-dropdown-content w3-bar-block">      <a href="https://tigf.w3spaces.com/index.html" class="w3-bar-item w3-hover-black w3-button h5">TiGF</a>      <a href="https://tigf.w3spaces.com/readthebible.html" class="w3-bar-item w3-hover-black w3-button">Read the Bible</a>      <a href="https://tigf.w3spaces.com/watchandpray.html" class="w3-bar-item w3-hover-black w3-button">Watch and Pray</a>      <a href="https://tigf.w3spaces.com/prayergroup.html" class="w3-bar-item w3-hover-black w3-button">Prayer group</a>      <a href="https://tigf.w3spaces.com/prayerrequest.html" class="w3-bar-item w3-hover-black w3-button">Prayer request</a>  </div>  </div>  <div class="w3-dropdown-hover nav-link">    <button class="w3-btn w3-hover-black cl2">Odiegho<i></i>    </button>    <div class="w3-dropdown-content w3-bar-block">      <a href="https://tigf.w3spaces.com/odiase-cv.html" class="w3-bar-item w3-hover-black w3-btn">Curriculum Vitae</a>      <a href="https://tigf.w3spaces.com/thousandword.html" class="w3-bar-item w3-button w3-hover-black">Thousand Word</a>     <a href="https://tigf.w3spaces.com/meinheft.html" class="w3-bar-item w3-hover-black w3-btn">Mein Heft</a>      <a href="https://tigf.w3spaces.com/comment.html" class="w3-bar-item w3-hover-black w3-btn">Comment</a>    </div>  </div>      <a href="#" class="nav-link w3-bar-item cl2"></a> <button class="w3-teal w3-padding-small w3-btn w3-right w3-round-large"><a href="https://tigf.w3spaces.com/login.html" class="w3-padding-small w3-bar-item w3-btn w3-center cl2 w3-hover-text-white w3-round-large">Login</a></button></div></div>  </div> </div>    </nav> </nav>
+<article><nav class="navbar navbar-expand-sm fixed-top cl target" id="targetnav">  <div class="container-fluid">    <a href="https://tigf.w3spaces.com/index.html" class="navbar-brand w3-hover-text-white cl2 h1" href="javascript:void(0)">TiGF</a>    <img src="https://tigf.w3spaces.com/image/john316.gif" style="width:200px;">    <span data-bs-toggle="collapse" data-bs-target="#mynavbar">     <section>    <div class="container" onclick="myFunction(this)">  <div class="bar1"></div>  <div class="bar2"></div>  <div class="bar3"></div></div>           </section>                           </span>          <div class="collapse navbar-collapse" id="mynavbar">     <ul class="navbar-nav me-auto">       </ul>                                    <div class="w3-dropdown-hover nav-link">         </span>     <button class="odiegho cl2 w3-hover-text-white cl dropdown-toggle">Prayer</button> <div class="panel cl"> <img src="https://tigf.w3spaces.com/image/logo.TiGF.jpg" alt="Logo" style="height:auto; width:120px;border-radius:10px;float:right;">      <a href="https://tigf.w3spaces.com/index.html" class="w3-bar-item w3-hover-text-yellow w3-btn h5">TiGF</a><br>      <a href="https://tigf.w3spaces.com/readthebible.html" class="w3-bar-item w3-hover-text-yellow w3-btn">Read the Bible</a><br>      <a href="https://tigf.w3spaces.com/watchandpray.html" class="w3-bar-item w3-hover-text-yellow w3-btn">Watch and Pray</a><br>      <a href="https://tigf.w3spaces.com/prayergroup.html" class="w3-bar-item w3-hover-text-yellow w3-btn">Prayer group</a><br>  <a href="https://tigf.w3spaces.com/prayerrequest.html" class="w3-bar-item w3-hover-text-yellow w3-btn">Prayer request</a><br>        </div></div><button class="odiegho cl2 cl w3-hover-text-white dropdown-toggle">Odiegho</button><div class="panel cl"><div style="float:right;"><table><tr><td><div style="width:120px;height:100px;position:relative;left:58px;top:50px;"> <div id="dig1" class="dig">1</div> <div id="dig2" class="dig">2</div> <div id="dig3" class="dig">3</div> <div id="dig4" class="dig">4</div> <div id="dig5" class="dig">5</div> <div id="dig6" class="dig">6</div> <div id="dig7" class="dig">7</div> <div id="dig8" class="dig">8</div> <div id="dig9" class="dig">9</div> <div id="dig10" class="dig">10</div> <div id="dig11" class="dig">11</div> <div id="dig12" class="dig">12</div> <div id="hour1" class="hour"></div> <div id="hour2" class="hour"></div> <div id="hour3" class="hour"></div> <div id="hour4" class="hour"></div> <div id="min1" class="min"></div> <div id="min2" class="min"></div> <div id="min3" class="min"></div> <div id="min4" class="min"></div> <div id="min5" class="min"></div> <div id="sec1" class="sec"></div> <div id="sec2" class="sec"></div> <div id="sec3" class="sec"></div> <div id="sec4" class="sec"></div><div id="sec5" class="sec"></div> <div id="sec6" class="sec"></div></div></td><td></td></tr></table></div>  <a href="https://tigf.w3spaces.com/odiase-cv.html" class="w3-bar-item w3-hover-text-yellow w3-btn">Curriculum Vitae</a><br>       <a href="https://tigf.w3spaces.com/thousandword.html" class="w3-bar-item w3-hover-text-yellow w3-btn">Thousand Word</a><br>       <a href="https://tigf.w3spaces.com/meinheft.html" class="w3-bar-item w3-hover-text-yellow w3-btn">Mein Heft</a><br>   <a href="https://tigf.w3spaces.com/comment.html" class="w3-bar-item w3-hover-text-yellow w3-btn">Comment</a><br> </div><button class="odiegho cl cl2"><button class="w3-teal w3-padding-small w3-btn w3-block w3-round-large"><a href="https://tigf.w3spaces.com/login.html" class="w3-padding-small w3-bar-item w3-btn w3-center cl2 w3-hover-text-white w3-round-large">Login</a></button></button><div class="panel"> </div>      </div></div> </div></div></div> </div>  </nan></article>
+</header>
+
+<div class="container-fluid mt-2">
+ <br><br><div class="row target" id="target20"> 
+ <nav>
+<div style="float:left;">
+  <button class="btn cl" type="button" data-bs-toggle="offcanvas" data-bs-target="#demo">
+    <div class="containers" onclick="myFunction(this)">
+  <div class="bar11"></div>
+  <div class="bar12"></div>
+  <div class="bar13"></div>
+</div>          
+  </button>
+</div>
+<div class="offcanvas offcanvas-start" id="demo">
+  <div class="offcanvas-header">
+    <h1 class="offcanvas-title"><img src="https://tigf.w3spaces.com/image/logo.TiGF.jpg" alt="Logo" style="height:auto; width:320px;border-radius:10px;"></h1>
+    <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+  </div>
+  <div class="offcanvas-body">  
+  <a href="https://tigf.w3spaces.com/index.html" class="w3-bar-item w3-hover-text-yellow w3-btn h5">TiGF</a><br>
+     <a href="https://tigf.w3spaces.com/readthebible.html" class="w3-bar-item w3-hover-text-yellow w3-btn">Read the Bible</a><br>
+      <a href="https://tigf.w3spaces.com/watchandpray.html" class="w3-bar-item w3-hover-text-yellow w3-btn">Watch and Pray</a><br>
+      <a href="https://tigf.w3spaces.com/prayergroup.html" class="w3-bar-item w3-hover-text-yellow w3-btn">Prayer group</a><br>
+     <a href="https://tigf.w3spaces.com/prayerrequest.html" class="w3-bar-item w3-hover-text-yellow w3-btn">Prayer request</a><br>   
+  <a href="https://tigf.w3spaces.com/odiase-cv.html" class="w3-bar-item w3-hover-text-yellow w3-btn">Curriculum Vitae</a><br> 
+     <a href="https://tigf.w3spaces.com/thousandword.html" class="w3-bar-item w3-hover-text-yellow w3-btn">Thousand Word</a><br> 
+      <a href="https://tigf.w3spaces.com/meinheft.html" class="w3-bar-item w3-hover-text-yellow w3-btn">Mein Heft</a><br> 
+      <a href="https://tigf.w3spaces.com/comment.html" class="w3-bar-item w3-hover-text-yellow w3-btn">Comment</a><br> 
+    <button class="w3-teal w3-padding-small w3-btn w3-block w3-round-large"><a href="https://tigf.w3spaces.com/login.html" class="w3-padding-small w3-bar-item w3-btn w3-center cl2 w3-hover-text-white w3-round-large">Login</a></button>
+   <br><br><h3>Memory Verse</h3>
+<p>1 Timothy 2:1-3  I exhort therefore, that, first of all, supplications, prayers, intercessions, and giving of thanks, be made for all men; For kings, and for all that are in authority; that we may lead a quiet and peaceable life in all godliness and honesty. For this is good and acceptable in the sight of God our Saviour;</p>
+  </div>
+</div>
+</nav>
+ <div class="col-sm-10 mx-auto br hr1 shadow-lg target" style="border-radius:10%;">  
+    <div id="wrapper">
+      <div id="quote-box">
+        <div class="quote-text">
+         <span><p class="h1" id="text"></p></span>
+        </div>
+       <div class="quote-author">- <span id="author"></span></div>
+        <div class="buttons">        
+          <button class="button" id="new-quote">New quote</button>
+        </div>
+      </div>
+    </div>    
+  </div> 
+ </div>
+</div>
+
+<div class="container-fluid mt-5">
+  <div class="row target" id="target22"> 
+  <h1>A Thousand Words</h1><br>
+   <div class="col-sm-4 mx-auto br hr1 p-3 shadow-lg target" id="right-col">
+    
+   <p>M<span class="h5">y brethren, be not many masters, knowing that we shall receive the greater condemnation. For in many things we offend all. If any man offend not in word, the same is a perfect man, and able also to bridle the whole body.  Even so the tongue is a little member and boast great things. Behold, how great a matter a little fire kindle.</span></p>
+   </div>
+   <div class="col-sm-4 mx-auto br hr1 p-3 shadow-lg target"
+    <p>T<span class="h5">he tongue is a fire, a world of iniquity, so is the tongue among our members, that it defile the whole body, and set on fire the course of nature; and it is set on fire of hell. For every kind of beasts, and of birds, and of serpents, and of things in the sea, is tamed, and hath been tamed of mankind:</span></p> 
+    </div>
+  <div class="col-sm-4 mx-auto br hr1 p-3 shadow-lg target"  
+  <p>B<span class="h5">ut the tongue can no man tame; it is an unruly evil, full of deadly poison.  Therewith bless we God, even the Father; and therewith curse we men, which are made after the similitude of God. Who is a wise man and endued with knowledge among you? let him shew out of a good conversation his works with meekness of wisdom.</span></p>
+  </div>
+ </div>
+</div>
+
+<div class="container-fluid mt-5">
+  <div class="row target" id="target22"> 
+  <h3>Knowledge is Power</h3>
+   <div class="col-sm-4 mx-auto br hr1 p-3 shadow-lg target" id="right-col">    
+   <p>K<span class="h5">nowledge is power is a popular proverb. It means that knowledge is more powerful than physical strength and no great work can be done without knowledge. Knowledge is a powerful factor that empowers people achieves great results. The more knowledge a person gains, the more powerful he becomes.</span></p><br>
+<p>T<span class="h5">his proverb means that ‘true power comes from knowledge’. No individual or nation can prosper without knowledge. A knowledgeable person has more power to foresee the future outcome and he can respond in a way that brings him the desired outcome. There is no end to knowledge, there is no limit to what a person can learn, the biggest problems can be solved if we have the knowledge of solving it.</span></p>
+   </div>
+   <div class="col-sm-3 mx-auto br hr1 p-3 shadow-lg target"
+   <p>B<span class="h5">y knowledge of science man has conquered nature. Development is possible by knowledge and not by physical strength. Knowledge is considered superior to physical strength in gaining success. A society or community that is devoid of knowledge is considered backward, even if they are physically strong group. Many physically powerful nations were defeated by nation having greater intelligence and knowledge. Knowledge helps human beings to utilize the various forces of nature for the benefit of humanity. The rise of human beings as the most powerful living-beings on planet is only due to the knowledge and the proper application of knowledge.</span></p>
+    </div>
+  <div class="col-sm-3 mx-auto br hr1 p-3 shadow-lg target"  
+ <p>K<span class="h5">nowledge plays a vital role in every sphere of human life and activity. Knowledge has helped in the advancement and development of civilization and culture. The application of knowledge has led man to the path of progress. We can all benefit from learning new things. Knowledge is power because it helps us to think accurately. When we know the relevant facts about a given matter, we can make our own autonomous judgements about that matter without depending on other people. The question of what it means to know something has been on philosophers’ minds for 2,000 years or so.</span></p>
+  </div>
+ </div>
+</div>
+
+<div class="container-fluid mt-5">
+  <div class="row target" id="target22"> 
+  <h3>Where is Understanding?</h3>
+   <div class="col-sm-4 mx-auto br hr1 p-3 shadow-lg target" id="right-col">    
+   <p>H<span class="h5">e put forth his hand upon the rock; he overturn the mountains by the roots. He cut out rivers among the rocks; and his eye see every precious thing.  He bind the floods from overflowing; and the thing that is hidden brings he forth to light.  But where shall wisdom be found? and where is the place of understanding?</span></p><br>
+<p>M<span class="h5">an know not the price thereof; neither is it found in the land of the living.  The depth saith, It is not in me: and the sea saith, It is not with me. It cannot be gotten for gold, neither shall silver be weighed for the price thereof.  It cannot be valued with the gold of Ophir, with the precious onyx, or the sapphire. The gold and the crystal cannot equal it: and the exchange of it shall not be for jewels of fine gold.</span></p>
+   </div>
+   <div class="col-sm-3 mx-auto br hr1 p-3 shadow-lg target"
+   <p>W<span class="h5">hence then cometh wisdom? and where is the place of understanding?  Seeing it is hidden from the eyes of all living and kept close from the fowls of the air. Destruction and death say, we have heard the fame thereof with our ears. God understand the way thereof, and he know the place thereof. For he looks to the ends of the earth and see under the whole heaven.  To make the weight for the winds; and he weigh the waters by measure.  When he made a decree for the rain, and a way for the lightning of the thunder. Then did he see it, and declare it; he prepared it, yea, and searched it out.  And unto man he said, Behold, the fear of the LORD, that is wisdom; and to depart from evil is understanding.</span></p>
+    </div>
+  <div class="col-sm-3 mx-auto br hr1 p-3 shadow-lg target"  
+ <p>I<span class="h5"> said, Days should speak, and multitude of years should teach wisdom.  But there is a spirit in man: and the inspiration of the Almighty giveth them understanding. Great men are not always wise: neither do the aged understand judgment. Whatsoever thy hand find to do, do it with thy might; for there is no work, nor device, nor knowledge, nor wisdom, in the grave, whither thou goes. I returned, and saw under the sun, that the race is not to the swift, nor the battle to the strong, neither yet bread to the wise, nor yet riches to men of understanding, nor yet favour to men of skill; but time and chance happen to them all.</span></p>
+  </div>
+ </div>
+</div>
+
+<div class="container-fluid mt-5">
+ <div class="row target" id="target23">
+  <div class="col-sm-10 mx-auto p-3 br shadow-lg hr1">
+<h3>Here is Wisdom</h3>
+ <p>T<span class="h5">hrough wisdom is a house build and by understanding it is established: And by knowledge shall the chambers be filled with all precious and pleasant riches. A wise man is strong, yea, a man of knowledge increase strength. For by wise counsel thou shalt make thy war: and in multitude of counsellors there is safety.</span></p>
+    <p>I<span class="h5">n the lips of him that hath understanding wisdom is found, but a rod is for the back of him that is void of understanding. Wise men lay up knowledge: but the mouth of the foolish is near destruction. The rich man's wealth is his strong city: the destruction of the poor is their poverty.</span></p>
+  <p>H<span class="h5">ow much better is it to get wisdom than gold? Buy the truth, and sell it not, also wisdom and understanding. He that is void of wisdom despise his neighbour: but a man of understanding hold his peace. A wise man will hear, and will increase learning; and a man of understanding shall attain unto wise counsels:</span></p>
+  <p>H<span class="h5">appy is the man that find wisdom, and the man that get understanding.  For the merchandise of it is better than the merchandise of silver, and the gain thereof than fine gold.  She is more precious than rubies: and all the things thou canst desire are not to be compared unto her. Length of days is in her right hand and in her left hand riches and honour. Her ways are ways of pleasantness, and all her paths are peace. She is a tree of life to them that lay hold upon her: and happy is every one that retain her. The LORD by wisdom hath founded the earth; by understanding hath he established the heavens.  By his knowledge the depths are broken up, and the clouds drop down the dew.  My son, let not them depart from thine eyes: keep sound wisdom and discretion.  So shall they be life unto thy soul, and grace to thy neck.  Then shalt thou walk in thy way safely, and thy foot shall not stumble.  When thou lie-down, thou shalt not be afraid: yea, thou shalt lie down, and thy sleep shall be sweet.</span></p>
+<p>G<span class="h5">et wisdom, get understanding: forget it not; neither decline from the words of my mouth. Forsake her not, and she shall preserve thee: love her, and she shall keep thee.  Wisdom is the principal thing, therefore get wisdom: and with all thy getting get understanding.  Exalt her, and she shall promote thee: she shall bring thee to honour, when thou dost embrace her. She shall give to thine head an ornament of grace: a crown of glory shall she deliver to thee.</span></p>
+<p>F<span class="h5">or wisdom is better than rubies; and all the things that may be desired are not to be compared to it.  I wisdom dwell with prudence and find out knowledge of witty inventions.  The fear of God is to hate evil: pride, and arrogancy, and the evil way, and the froward mouth, do I hate. Counsel is mine, and sound wisdom: I am understanding; I have strength.  By me kings reign, and princes decree justice.  By me princess rule, and nobles, even all the judges of the earth.  I love them that love me; and those that seek me early shall find me. Riches and honour are with me, yea, durable riches and righteousness.  My fruit is better than gold, yea, than fine gold, and my revenue than choice silver.  I lead in the way of righteousness, in the midst of the paths of judgment:  That I may cause those that love me to inherit substance; and I will fill their treasures.</span></p>
+<p>T<span class="h5">he LORD possessed me in the beginning of his way, before his works of old.  I was set up from everlasting, from the beginning, or ever the earth was.  When there were no depths, I was brought forth, when there were no fountains abounding with water. Before the mountains were settled, before the hills was. I brought forth:  While as yet he had not made the earth, nor the fields, nor the highest part of the dust of the world.  When he prepared the heavens, I was there: when he set a compass upon the face of the depth:  When he established the clouds above: when he strengthened the fountains of the deep:  When he gave to the sea his decree, that the waters should not pass his commandment: when he appointed the foundations of the earth:  Then I was by him, as one brought up with him: and I was daily his delight, rejoicing always before him; Rejoicing in the habitable part of his earth; and my delights were with the sons of men. Now therefore hearken unto me, O ye children: for blessed are they that keep my ways. Hear instruction, and be wise, and refuse it not.</span></p>    
+  </div> 
+ </div> 
+</div>
+
+<div class="container-fluid mt-5">
+ <div class="row target" id="target25">
+  <div class="col-sm-12 mx-auto br p-3 shadow-lg hr2">
+     <p>P<span class="h5">eople perish for lack of knowledge. I returned, and saw under the sun, that the race is not to the swift, nor the battle to the strong, neither yet bread to the wise, nor yet riches to men of understanding, nor yet favour to men of skill; but time and chance happen to them all.</span></p>
+   <p>W<span class="h5">isdom is the principal thing; therefore get wisdom: and with all thy getting get understanding.</span></p>   
+  </div> 
+ </div> 
+</div>
+
+<div class="container-fluid">
+ <div class="row target" id="target5">
+   <div class="col text-black"></div>
+    <div class="col text-black"></div>
+    <div class="col text-black"></div>
+   <div class="col text-black"></div>
+ </div>
+</div> 
+
+<div class="container-fluid mt-5">    
+ <div class="row shadow-lg target" id="target26">
+  <div class="col-sm-11 mx-auto hr1 br shadow-lg p-3"><h3>As we pray</h3>
+<p>Lifting you before the throne with love and gentle pleas, asking God to give you strength to face another day and when the night is darkest, shine light upon your way, somewhere someone kneeling to whisper your name in prayer, knowing that you need to feel God love and tender care, intercede on your behalf, for this is good and acceptable in the sight of God, our Savior. Knowing that you have a need, from the Father Almighty, praying for you when you are not able to say a single word, how great it is, knowing the prayer will be heard. Laying you at the alter, kneeling there at God feet, giving all cares to Him, there at the mercy seat, our God is always listening to every earnest prayer, when we look to Him for help, the answer is always there. It such a comfort to know that someone pray for you, place you within God loving hands, those prayers will see you through, as we kneel before the Father Almighty, thanking Him for your life and for those who cares and pray for your success and when we bow before the mercy seat, we whisper your names to God in prayers.</p>
+  </div>
+ </div> 
+</div>
+
+<div class="container-fluid">
+<div class="row shadow-lg target" id="target7">
+ <div class="col-sm-4 p-3 text-center ftr">
+ <br><h1 class="h1 cl2">TiGF</h1><br> 
+<h3>Spread the Word</h3><br>
+<h6 >And the Word was made flesh, and dwelt among us, (and we beheld his glory, the glory as of the only begotten of the Father,) full of grace and truth.</h6>
+  </div> 
+  <div class="col-sm-4 p-3 text-center ftr">
+  <button class="btn btn-default"><a href="https://www.w3profile.com/Odiegho" target="_blank">W3 Schools </a><i class='fab fa fa-weebly' style='font-size:18px;color:white;'><sup>3</sup></i></button><br>  
+  <button class="btn btn-default"><a href="https://codepen.io/odiegho" target="_blank">Code Pen</a><i class='fa fa-codepen' style='font-size:18px;color:white'></i></button><br>    
+<button class="btn btn-default"><a href="https://www.linkedin.com/in/de-gho-dias-80635a247/" target="_blank">Linkedin </a><i class="fa fa-linkedin" style='font-size:18px;color:white'></i></button><br> 
+<button class="btn btn-default"><a href="https://github.com/odiegho99" target="_blank">GitHub </a><i class="fa fa-github" style="font-size:18px;color:white"></i></button>  
+  </div>   
+  <div class="col-sm-4 p-3 text-center ftr">
+  <h6>Eze 22:30 (And I sought for a man among them, that should make up the hedge, and stand in the gap before me for the land, that I should not destroy it: but I found none.) Is a pleasure you are willing to stand in the gap.</h6>
+  <button class="btn btn-default"><a href="mailto:tigf.faithweb@gmail.com" target="_blank">Contact</a><i class="fa fa-envelope" style="width:18px;color:white"></i></button><br> 
+<footer class="container1 target" id="targetfooter"> 
+    <h6> <a href="#">Privacy</a>  <a href="#">Terms</a></h6>
+    <h6 class="text-primary">&copy; 2012<script>new Date().getFullYear()>2010&&document.write("-"+new Date().getFullYear());</script>, <span class="h5"><span class="text-black">TiGF</span>, Inc. &middot;</h6>
+   </footer>  
+  </div>   
+ </div>
+</div>
+<script>
+/*navscript*/
+var acc = document.getElementsByClassName("odiegho");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.display === "block") {
+      panel.style.display = "none";
+    } else {
+      panel.style.display = "block";
+    }
+  });
+}
+
+
+function myFunction(x) {
+  x.classList.toggle("change");
+}
+</script>
+<script>
+/*Random Quotescript*/
+var currentQuote = '',
+  currentAuthor = '';
+
+function getQuotes() {
+  return $.ajax({
+    headers: {
+      Accept: 'application/json'
+    },
+    url: 'https://raw.githubusercontent.com/odiegho99/quote-machine/master/odiegho.quote.json',
+    success: function (jsonQuotes) {
+      if (typeof jsonQuotes === 'string') {
+        quotesData = JSON.parse(jsonQuotes);
+        console.log('quotesData');
+        console.log(quotesData);
+      }
+    }
+  });
+}
+
+function getRandomQuote() {
+  return quotesData.quotes[
+    Math.floor(Math.random() * quotesData.quotes.length)
+  ];
+}
+
+function getQuote() {
+  let randomQuote = getRandomQuote();
+
+  currentQuote = randomQuote.quote;
+  currentAuthor = randomQuote.author;
+
+  $('#tweet-quote').attr(
+    'href',
+    '' +
+      encodeURIComponent('"' + currentQuote + '" ' + currentAuthor)
+  );
+
+  $('#tumblr-quote').attr(
+    'href',
+    '' +
+      encodeURIComponent(currentAuthor) +
+      '&content=' +
+      encodeURIComponent(currentQuote) +
+      ''
+  );
+
+  $('.quote-text').animate({ opacity: 0 }, 500, function () {
+    $(this).animate({ opacity: 1 }, 500);
+    $('#text').text(randomQuote.quote);
+  });
+
+  $('.quote-author').animate({ opacity: 0 }, 500, function () {
+    $(this).animate({ opacity: 1 }, 500);
+    $('#author').html(randomQuote.author);
+  });
+
+  var color = Math.floor(Math.random() * colors.length);
+  $('html body').animate(
+    {
+      backgroundColor: colors[color],
+      color: colors[color]
+    },
+    1000
+  );
+  $('.button').animate(
+    {
+      backgroundColor: colors[color]
+    },
+    1000
+  );
+}
+
+$(document).ready(function () {
+  getQuotes().then(() => {
+    getQuote();
+  });
+
+  $('#new-quote').on('click', getQuote);
+});
+</script>
+<script type="text/javascript"></script><script src="./myscript.js"></script><script src="./scripts.js"></script><script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+</body>
+</html>

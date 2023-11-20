@@ -1,0 +1,293 @@
+/*mysstyle.css*/
+ /*Prayer Request*/
+
+.container {
+    background-color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    width: 500px;
+    max-width: 100%;
+    box-shadow: 0 0 10px 1px rgba(61, 61, 61, 0.19), 0 0 15px 1px rgba(63, 63, 63, 0.23);
+}
+
+.container.complete {
+    visibility: hidden;
+}
+
+.form-control {
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.form-control label {
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.form-control input {
+    margin-top: 2px;
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    border: 2px solid #45a049;
+    font-family: inherit;
+}
+
+.form-control i {
+    position: absolute;
+    top: 29px;
+    right: 10px;
+    font-size: 24px;
+    visibility: hidden;
+}
+
+.form-control input:focus {
+    outline: none;
+}
+
+.form-control.success input {
+    border: 2px solid #45a049;
+}
+
+.form-control.success .fa-smile-o {
+    color: #45a049;
+    visibility: visible;
+}
+
+@keyframes inputMove {
+    0% {
+        transform: translateX(5px);
+    }
+    25% {
+        transform: translateX(-5px);
+    }
+    50% {
+        transform: translateX(5px);
+    }
+    75% {
+        transform: translateX(-5px);
+    }
+    100% {
+        transform: translateX(0px);
+    }
+}
+
+.form-control.error input {
+    border: 2px solid red;
+    animation-name: inputMove;
+    animation-duration: .5s;
+}
+
+.form-control.error .fa-frown-o {
+    color: red;
+    visibility: visible;
+}
+
+.container.complete .fa {
+    visibility: hidden;
+}
+
+.form-control .errorMessage {
+    visibility: hidden;
+    margin: 2px 0 12px 0;
+    font-weight: bold;
+    font-size: 11px;
+}
+
+.form-control.error .errorMessage {
+    visibility: visible;
+    color: red;
+}
+
+button {
+    font-family: inherit;
+    width: 100%;
+    padding: 10px;
+    background-color: #45a049;
+    color: #fff;
+    font-size: 15px;
+    border-radius: 4px;
+    border: 2px solid #45a049;
+    cursor: pointer;
+    transition: all .5s ease-in-out;
+}
+
+button:focus {
+    outline: none;
+}
+
+button:hover {
+    color: #45a049;
+    border: 2px solid #45a049;
+    background: transparent;
+}
+
+.complete-modal {
+    visibility: hidden;
+    position: fixed;
+    top: 45%;
+    left: 41%;
+    background-color: #fff;
+    padding: 40px 20px;
+    border-radius: 5px;
+    width: 300px;
+    max-width: 100%;
+    box-shadow: 0 0 10px 1px rgba(61, 61, 61, 0.19), 0 0 15px 1px rgba(63, 63, 63, 0.23);
+    color: green;
+    text-align: center;
+}
+
+.container.complete .complete-modal {
+    visibility: visible;
+}
+
+@keyframes animCircle {
+    0% {
+        transform: translateY(0);
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    75% {
+        opacity: 1;
+    }
+    100% {
+        transform: translateY(-100vh);
+        opacity: 0;
+    }
+}
+
+.animate-circles {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    bottom: -10vh;
+    z-index: -1;
+    visibility: hidden;
+}
+
+.animate-circles.complete {
+    visibility: visible;
+}
+
+
+.animate-circles div {
+    animation: animCircle 7s infinite linear;
+}
+
+.animate-circles div:nth-child(1) {
+    animation-delay: 5s;
+}
+
+.animate-circles div:nth-child(3) {
+    animation-delay: 2s;
+}
+
+.animate-circles div:nth-child(7) {
+    animation-delay: 6s;
+}
+
+.animate-circles div:nth-child(5) {
+    animation-delay: 4s;
+}
+
+.animate-circles div:nth-child(9) {
+    animation-delay: 4s;
+}
+
+.animate-circles div:nth-child(8) {
+    animation-delay: 2s;
+}
+
+.animate-circles .circle {
+    background-color: lawngreen;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+
+.animate-circles .red {
+    background-color: red;
+    height: 30px;
+    width: 30px;
+}
+
+.animate-circles .blue {
+    background-color: blue;
+    height: 20px;
+    width: 20px;
+}
+
+.animate-circles .orange {
+    background-color: orange;
+    height: 40px;
+    width: 40px;
+}
+
+.boxr {
+  width: 100%;
+  padding: 10px 10px;
+  border: 2px solid #45a049;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+
+.containerr {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.containerr input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+  border-radius: 50%;
+}
+
+.containerr:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+.containerr input:checked ~ .checkmark {
+  background-color: #2196F3;
+}
+
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+.containerr input:checked ~ .checkmark:after {
+  display: block;
+}
+
+.containerr .checkmark:after {
+ 	top: 9px;
+	left: 9px;
+	width: 8px;
+	height: 8px;
+	border-radius: 50%;
+	background: white;
+}
+ 
