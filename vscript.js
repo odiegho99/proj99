@@ -10,4 +10,4 @@ function myFunction() {
     message.innerHTML = "Input is " + person;
   }
 }
- 
+
