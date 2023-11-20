@@ -39,3 +39,4 @@ document.getElementById("hour" + (i+1)).style.left=Xpos+i*Xbase*Math.cos(hrs).to
 setTimeout(clock, 50);
 }
 //-->
+
